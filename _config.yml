@@ -1,0 +1,21 @@
+title: "My Portfolio"
+description: "A showcase of my projects and blog posts."
+baseurl: "" # Leave blank unless hosting under a subpath
+url: "https://your-username.github.io" # Replace with your GitHub Pages URL
+
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Navigation links
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
+  - title: "About"
+    url: /about/
